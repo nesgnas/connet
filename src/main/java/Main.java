@@ -12,7 +12,7 @@ public class Main {
     private static void createGUI(){
         inte in = new inte();
         JPanel root = in.getRootPanel();
-        JFrame frame = new JFrame("simple query");
+        JFrame frame = new JFrame("ITCSIU21104 - Bui Doan The Sang");
         frame.setContentPane(root);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();

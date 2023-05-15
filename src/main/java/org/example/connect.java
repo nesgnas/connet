@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class connect {
 
-    static final String connectionUrl = "jdbc:sqlserver://localhost:1433;databaseName=books;user=BloodDonationProject;password=123123;encrypt=false";
+    static final String connectionUrl = "jdbc:sqlserver://localhost:1433;databaseName=BikeStores;user=BloodDonationProject;password=123123;encrypt=false";
     public Object []  logicColum(String query){
         try(Connection conn = DriverManager.getConnection(connectionUrl);
             Statement stmt = conn.createStatement();){
